@@ -1,0 +1,39 @@
+¿Cuáles son los tipos de Datos en Python?
+
+Python 3 build-in types
+  - numeric: int, float, complex;
+  - boolean: bool;
+  - text: str;
+  - sequence: list, tuple, range;
+  - binary: bytes, bytearray, memoryview;
+  - set: set, frozenset;
+  - mapping: dict;
+  - none;
+
+
+¿Qué tipo de convención de nomenclatura deberíamos utilizar para las variables en Python?
+
+La convención de nomenclatura de variables se describe en el documento.
+https://peps.python.org/pep-0008/#function-and-variable-names
+
+
+¿Qué es un Heredoc en Python?
+
+Multi-line strings. (Las traducciones de Google no son tan claras.)
+
+
+¿Qué es una interpolación de cadenas?
+
+Todo tipo de opciones para formar cuerdas.
+string.format() y f-string.
+
+
+¿Cuándo deberíamos usar comentarios en Python?
+
+Los comentarios se utilizan para describir el código.
+
+
+¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
+
+La arquitectura de microservicio divide una aplicación monolítica en varias aplicaciones pequeñas
+que realizan sus propias funciones por separado.
