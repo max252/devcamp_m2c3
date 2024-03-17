@@ -10,16 +10,40 @@ Python 3 build-in types
   - mapping: dict;
   - none;
 
+Examles:
+num_int = 5
+num_float = -5.0
+bool = False
+text_srt = 'Test text'
+seq_list = [1, 2, 3, 4]
+seq_tuple = ('1', '2', 3)
+bin_bytes = bytes(4)
+bin_bytearray = bytearray(b'\x00\xFF')
+set_set = {'test1', 'test2', 'test3'}
+map_dict = {'one': 1, 'two': 2, 'three': 3}
+none = None
+
 
 ¿Qué tipo de convención de nomenclatura deberíamos utilizar para las variables en Python?
 
 La convención de nomenclatura de variables se describe en el documento.
 https://peps.python.org/pep-0008/#function-and-variable-names
 
+Python use "Snake case", where separate words are separated by underscores.
+example_variable = "This is a string variable."
+another_example_variable = 31
+
 
 ¿Qué es un Heredoc en Python?
 
 Multi-line strings. (Las traducciones de Google no son tan claras.)
+
+Example:
+text="""{name}
+was
+{place}"""
+
+print(text.format(name='Maksym', place='Spain'))
 
 
 ¿Qué es una interpolación de cadenas?
@@ -27,10 +51,20 @@ Multi-line strings. (Las traducciones de Google no son tan claras.)
 Todo tipo de opciones para formar cuerdas.
 string.format() y f-string.
 
+Example:
+name = "Vika"
+age = 18
+str_format = "Hello, {}! You're {} years old.".format(name, age)
+str_f = f"Hello, {name}! You're {age} years old."
+
 
 ¿Cuándo deberíamos usar comentarios en Python?
 
 Los comentarios se utilizan para describir el código.
+
+Example:
+# Python line comment
+print('text') # Comment too
 
 
 ¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
